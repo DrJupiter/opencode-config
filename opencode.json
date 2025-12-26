@@ -1,0 +1,21 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "permission": {
+        "bash": {
+            "git push": "ask",
+            "git commit": "ask",
+            "git merge": "ask"
+        }
+    },
+    "tools": {
+        "webfetch": false
+    },
+    "instructions": [
+        "{env:HOME}/.config/opencode/rules/verification-rules.md"
+    ],
+    "agent": {
+        "explore": {
+            "disable": true
+        }
+    }
+}
