@@ -11,7 +11,8 @@
         "webfetch": false
     },
     "instructions": [
-        "{env:HOME}/.config/opencode/rules/verification-rules.md"
+        "{env:HOME}/.config/opencode/rules/verification-rules.md",
+        "{env:HOME}/.config/opencode/rules/review-pipeline.md"
     ],
     "agent": {
         "explore": {
