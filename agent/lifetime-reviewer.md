@@ -16,8 +16,11 @@ Focus on:
 - Resource handle validity (files, sockets, connections).
 - Cleanup on error or early return paths.
 - FFI or boundary lifetime assumptions.
+- Flag any assumptions needing verification (use `VERIFY:`), or run a quick read-only probe if it helps.
 
 Respond with:
 - Findings (ordered by severity)
 - Risky lifetimes
 - Suggested fixes or checks
+- Assumptions to verify (use `VERIFY:`)
+- Evidence (if any probes were run)

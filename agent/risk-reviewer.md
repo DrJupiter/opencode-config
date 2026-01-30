@@ -15,8 +15,11 @@ Focus on:
 - Performance regressions and resource usage.
 - Observability gaps (logs, metrics, alerts).
 - Backward compatibility and rollout risks.
+- Note assumptions about environment/tooling/runtime that should be verified (use `VERIFY:`), or run a quick read-only probe if it helps.
 
 Respond with:
 - Risks (ordered by severity)
 - Mitigations
 - Follow-up checks
+- Assumptions to verify (use `VERIFY:`)
+- Evidence (if any probes were run)

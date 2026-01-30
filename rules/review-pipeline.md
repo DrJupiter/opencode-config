@@ -10,6 +10,10 @@ When changes touch concurrency (threads, async, locks, atomics, shared state):
 When changes touch manual memory or resource lifetime (unsafe, FFI, raw pointers, explicit free/close):
 - After edits: delegate to `lifetime-reviewer`.
 
+When any reviewer output includes assumptions, follow-up checks, probes, or a `VERIFY:` tag:
+- After edits: delegate to `verification-first` before final response.
+  - If a reviewer already ran a probe and provided evidence, and no open `VERIFY:` items remain, you may skip the extra `verification-first` pass.
+
 If the change is trivial (docs, comments, formatting only), skip the pipeline.
 
 When a follow-up fix changes the approach or expands the diff:

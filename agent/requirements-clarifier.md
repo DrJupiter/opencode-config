@@ -16,9 +16,11 @@ Focus on:
 - Note assumptions and non-goals.
 - Ask the minimum clarifying questions needed to proceed.
 - Flag compatibility or rollout concerns if relevant.
+- Mark any assumptions needing verification with `VERIFY:`, or run a quick read-only probe if it helps.
 
 Respond with:
 - Goal
 - Acceptance criteria
 - Assumptions and questions
 - Risks or constraints
+- Evidence (if any probes were run)
