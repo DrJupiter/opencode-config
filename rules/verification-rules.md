@@ -1,4 +1,4 @@
-# Verification-First Rules (opencode)
+# Verification-First Rules 
 
 Core behavior:
 - For feasibility or environment-dependent claims, run 1-3 minimal probes before asserting possible/impossible.

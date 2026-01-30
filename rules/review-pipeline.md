@@ -1,8 +1,8 @@
-# Review Pipeline Rules (opencode)
+# Review Pipeline Rules
 
 When implementing a new feature or non-trivial behavior change:
 - Before edits: delegate to `requirements-clarifier`, `impact-scout`, `design-reviewer`.
-- After edits: delegate to `diff-correctness-reviewer`, `test-reviewer`, `risk-reviewer`.
+- After edits: delegate to `diff-correctness-reviewer`, `test-reviewer`, `risk-reviewer`, `cleanup-reviewer`.
 
 When changes touch concurrency (threads, async, locks, atomics, shared state):
 - After edits: delegate to `concurrency-reviewer`.
